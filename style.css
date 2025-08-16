@@ -1,0 +1,143 @@
+body{
+    background-color:white;
+}
+
+section{
+    text-align:LEFT;
+    height: 50px;
+    background-color: #fefae0;
+padding-left: 20px;
+text-shadow:1px 1px 2px rgba(0,0,0,0.5);
+font-size: x-large;
+}
+.container{
+    text-align: left;
+   position:absolute;
+   z-index: 1;
+   height: 100px;
+    width: 100px;
+    margin-top: 10px; 
+    display: flex;
+    text-wrap:wrap;
+  
+}
+.image1{
+    margin-left:200px;
+    margin-top: 20px;
+    height: 100vh;
+    width: 100vh;
+}
+#image2{
+    height: 20vh;
+    width: 20vh;
+   position:absolute;
+   margin-left: 100vh;
+   top: 100vh;
+}
+.items{
+    top: 20px;
+    height: 700px;
+    width: 700px;
+    font-size: x-large;
+    font-style: bold;
+    font-weight:bolder;
+
+}
+.fa {
+    position: absolute;
+    right: 150px;
+
+
+}
+
+#search{
+    position: absolute;
+    right: 20px;
+}
+#solution{
+    margin-top:100vh;
+    position: absolute;
+    top: 10vh;
+    font-size: larger;
+    height: 100vh;
+    width: 100vh;
+
+}
+#items2{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 25%;
+    margin:100px;
+    background-color: burlywood;
+
+}
+.offer{
+    margin-top:55vh ;
+    font-size: xx-large;
+    text-align: center;
+}
+#prices{
+    margin-top: 5vh;
+    margin-left: 10vh;
+    height: 30vh;
+    width: 50vh;
+    text-align: center;
+    background-color: #FF4F0F;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border: 2px solid grey;
+}
+#sale{
+    height: 30vh;
+    width: 50vh;
+    margin-left: 120vh;
+    position: absolute;
+    top: 200vh;
+    font-size: x-large;
+    border-radius: 25%;
+    background-color: #FF4F0F;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid grey;
+}
+
+.app{
+    background-color:#fdf0d5;
+    height:200vh;
+    width: 200vh;
+    margin-top: 15vh;
+    margin-left: 5vh;
+    color:#c1121f;
+    
+}
+button{
+    background-color: #c1121f;
+    padding: 10px;
+    font-style: italic;
+    border: 4px solid black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px white;
+
+    font-weight: 200;
+    border-color:4px solid #fefae0;
+    transition: all 1s ease-out;
+}
+button:hover{
+    background-color:rgb(46, 208, 46);
+}
+.footer{
+    height: 100vh;
+    width: 200vh;
+    margin-top: 10vh;
+    background-color: #eb8d93;
+    padding: 20px;
+}
+
+
